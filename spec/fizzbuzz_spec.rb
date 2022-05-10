@@ -23,6 +23,6 @@ describe 'fizzbuzz' do
   end
 
   it 'returns number when not a multiple of 3 & 5' do
-    expect(fizzbuzz(2)).to eq '2'
+    expect(fizzbuzz(2)).to eq 2
   end
 end
